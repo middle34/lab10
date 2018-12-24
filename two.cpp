@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <stdlib.h> 
 #include <time.h> 
-#include <conio.h>
 using namespace::std;
 const int n = 1;
 const int m = 5;
@@ -84,7 +83,6 @@ int main() {
 	delete[]A;
 	delete[]B;
 	delete[]C;
-	_getch();
 	return 0;
 }
 
